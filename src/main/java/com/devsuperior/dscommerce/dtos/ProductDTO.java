@@ -1,7 +1,6 @@
 package com.devsuperior.dscommerce.dtos;
 
 import com.devsuperior.dscommerce.entities.Product;
-import jakarta.persistence.Column;
 
 public class ProductDTO {
     private Long id;
@@ -9,9 +8,6 @@ public class ProductDTO {
     private String description;
     private Double price;
     private String imgUrl;
-
-    public ProductDTO() {
-    }
 
     public ProductDTO(Long id, String name, String description, Double price, String imgUrl) {
         this.id = id;
